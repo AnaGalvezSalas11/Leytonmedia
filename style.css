@@ -1,0 +1,89 @@
+html{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+.main{
+    background-image: url("/img/imgfondo.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    opacity: 0.3;    
+}
+
+.title{
+    position: absolute;
+    display: block;
+    top: 0px;
+    left: 28%;
+    width: 50%;
+    top: 20px
+}
+
+.imgTittle{
+    height: 150px;
+    position: relative;
+    margin-left: 3%;
+}
+
+.redColor{
+    background-color:	#EF3F4A;
+    padding-left: 3%;
+    
+}
+
+.blueColor{
+    background-color: 	#1B6AC7;
+}
+
+.greenColor{
+    background-color:  #52A254;
+
+}
+
+.buttonOption{
+    color: rgb(209, 215, 219);
+    width: 30%;
+    position: relative;
+    font-size: 13px;
+    border-radius: 6px;
+    box-shadow: 2px 10px 8px -9px rgba(0,0,0,1);
+    border: none;
+    
+}
+
+.buttonOptionsBci{
+    display: flex;
+    justify-content: space-evenly;
+    width: 85%;
+    top: 12px;
+    position: relative;
+}
+
+.information{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textRed{
+    color: #EF3F4A;
+    font-weight: bold;
+}
+
+.textBlack{
+    color: rgb(41, 39, 40);
+    font-size: 15px;
+}
